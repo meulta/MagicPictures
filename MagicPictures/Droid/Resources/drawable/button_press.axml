@@ -1,3 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
-</LinearLayout>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+	<solid android:color="#C22032" />
+	<stroke android:width="1dp"
+        android:color="#ffffff"
+        />
+  	<size 
+		android:width="120dp"
+	    android:height="120dp"/>
+</shape>

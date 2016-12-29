@@ -1,9 +1,8 @@
-﻿namespace ImageCaption.Services
+﻿namespace MagicPictures.Services
 {
     using System.IO;
     using System.Linq;
     using System.Threading.Tasks;
-    using System.Web.Configuration;
     using Microsoft.ProjectOxford.Vision;
     using Microsoft.ProjectOxford.Vision.Contract;
 
@@ -19,7 +18,7 @@
         /// <summary>
         /// Microsoft Computer Vision API key.
         /// </summary>
-        private static readonly string ApiKey = WebConfigurationManager.AppSettings["MicrosoftVisionApiKey"];
+		private static readonly string ApiKey = "cdb192291b0448be88dcc0f622558422"; //PCLAppConfig.ConfigurationManager.AppSettings["MicrosoftVisionApiKey"];
 
         /// <summary>
         /// The set of visual features we want from the Vision API.

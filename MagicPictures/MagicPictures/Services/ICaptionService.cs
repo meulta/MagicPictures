@@ -1,4 +1,4 @@
-﻿namespace ImageCaption.Services
+﻿namespace MagicPictures.Services
 {
     using System.IO;
     using System.Threading.Tasks;

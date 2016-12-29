@@ -1,6 +1,6 @@
 ﻿using Xamarin.Forms;
 
-namespace testForms
+namespace MagicPictures.Forms
 {
 	public partial class App : Application
 	{
@@ -8,7 +8,7 @@ namespace testForms
 		{
 			InitializeComponent();
 
-			MainPage = new testFormsPage();
+			MainPage = new MagicPictures_FormsPage();
 		}
 
 		protected override void OnStart()

@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{16A78A04-D0AD-4D7F-87AD-6B1369E628F2}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/AboutViewController.cs">
+    <Files>
+      <File FileName="iOS/AboutViewController.cs" Line="27" Column="1" />
+      <File FileName="iOS/ViewController.cs" Line="11" Column="38" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/etienne/git/MagicPictures/MagicPictures/MagicPictures/Services/MicrosoftCognitiveCaptionService.cs" line="39" column="26" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MagicPictures.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.f446e4179aea206a99d99cebbdc9d10bf5658a54" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MagicPictures.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.AndroidEmulator" />
+</Properties>

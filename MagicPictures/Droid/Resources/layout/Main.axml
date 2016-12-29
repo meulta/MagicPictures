@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:background="#ffdfdee6">
+    <TextView
+        android:id="@+id/LabelResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ff352424" />
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:id="@+id/resultImage"
+        android:layout_width="match_parent"
+        android:layout_height="386.0dp"
+        android:scaleType="centerCrop" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:background="#ffdfdee6"
+        android:gravity="center">
+        <Button
+            android:id="@+id/myButton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="0.0dp"
+            android:text="@string/camera_icon"
+            android:background="@drawable/roundbuttonbackground" />
+        <Button
+            android:text="i"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/buttonAbout"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/roundbuttonbackground"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</LinearLayout>
